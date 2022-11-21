@@ -1,0 +1,19 @@
+{
+  "name": "entrega-final",
+  "version": "1.0.0",
+  "description": "Entrega Final Curso Backend",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuevabros2004/BackEndFinal.git"
+  },
+  "author": "Cueva, Germán Francisco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cuevabros2004/BackEndFinal/issues"
+  },
+  "homepage": "https://github.com/cuevabros2004/BackEndFinal#readme"
+}
