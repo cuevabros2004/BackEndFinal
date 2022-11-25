@@ -1,0 +1,61 @@
+[
+  {
+    "id_cart": "1f1da7a0-839a-4833-8af5-b809b01286f9",
+    "productos": []
+  },
+  {
+    "id_cart": "b6cadb81-e9a7-48ad-a985-c84e525c5e4b",
+    "productos": []
+  },
+  {
+    "id_cart": "8199ab12-ee97-43b3-b62a-fd19830ece3f",
+    "productos": []
+  },
+  {
+    "id_cart": "05dddf4f-c704-4950-9ef0-c1f07df02da1",
+    "productos": [
+      {
+        "title": "cabalgata",
+        "price": "1400",
+        "thumbnail": "https://www.shutterstock.com/image-photo/visual-perspective-llanero-colombian-cowboy-600w-1116330527.jpg",
+        "id": "b6c35a1c-90d1-482e-aa33-30e211e83c84"
+      },
+      {
+        "title": "prueba",
+        "price": "1400",
+        "thumbnail": "https://www.shutterstock.com/image-photo/visual-perspective-llanero-colombian-cowboy-600w-1116330527.jpg",
+        "id": "b6c35a1c-90d1-482e-aa33-30e211e83c84"
+      },
+      {
+        "title": "Cabalgata en Quinta",
+        "price": "233",
+        "thumbnail": "https://www.shutterstock.com/image-photo/visual-perspective-llanero-colombian-cowboy-600w-1116330527.jpg",
+        "id": "e2aff48a-2ba0-4219-b7a8-6d66b0b14339"
+      }
+    ]
+  },
+  {
+    "id_cart": "7d0af754-e1aa-46b8-8106-1dd9e45d9c55",
+    "productos": []
+  },
+  {
+    "id_cart": "dec29cfa-b7d7-4929-b156-c8f783c35c87",
+    "productos": []
+  },
+  {
+    "id_cart": "df0b7135-f61c-429e-88d4-60c6188fd3b6",
+    "productos": []
+  },
+  {
+    "id_cart": "9597723c-a2ae-48d1-979a-e78e2c58d5d4",
+    "productos": []
+  },
+  {
+    "id_cart": "5d97a718-d742-48d6-ab9e-6a46cdc5da78",
+    "productos": []
+  },
+  {
+    "id_cart": "1fe15256-b8a0-4170-bdfa-545302befe28",
+    "productos": []
+  }
+]
