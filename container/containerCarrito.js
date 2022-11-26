@@ -110,16 +110,18 @@ class ContenedorCarrito{
         } 
     }
 
-    async deleteByIdProd(indice_cart, id_prod){
+    async deleteByIdProd(indice_cart, indiceBuscadoProd){
         try {
-            this.#carritos = await this.getAll()            
-            this.#carritos[indice_cart].productos = this.#carritos[indice_cart].productos.filter(p => p.id !== id_prod)
+            this.#carritos = await this.getAll()     
+            const eliminado = this.#carritos[indice_cart].productos.splice(indiceBuscadoProd, 1)       
             await fs.promises.writeFile(this.#filename, JSON.stringify(this.#carritos, null, 2))
             return this.#carritos[indice_cart]
         }
         catch(error){
             error => { throw error}
         } 
+
+        
     }
 
 

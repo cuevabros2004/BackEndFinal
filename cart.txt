@@ -15,12 +15,6 @@
     "id_cart": "05dddf4f-c704-4950-9ef0-c1f07df02da1",
     "productos": [
       {
-        "title": "cabalgata",
-        "price": "1400",
-        "thumbnail": "https://www.shutterstock.com/image-photo/visual-perspective-llanero-colombian-cowboy-600w-1116330527.jpg",
-        "id": "b6c35a1c-90d1-482e-aa33-30e211e83c84"
-      },
-      {
         "title": "prueba",
         "price": "1400",
         "thumbnail": "https://www.shutterstock.com/image-photo/visual-perspective-llanero-colombian-cowboy-600w-1116330527.jpg",

@@ -15,7 +15,7 @@ servidor.use('/api/shoppingCart', routerShoppingCart)
 
 //En caso de venir de una ruta no implementada devuelve error.
 servidor.all('*', (req, res) => {
-  res.status(404).json({error: "404", descripcion: "url: " + req.url + " método " + req.method + " forbiden"})
+  res.status(403).json({error: "403", descripcion: "url: " + req.url + " método " + req.method + " forbiden"})
 })
 
 const puerto = process.env.PORT ?? 8080

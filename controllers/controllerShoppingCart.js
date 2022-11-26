@@ -12,7 +12,7 @@ async function controladorPostCart(req, res) {
     objeto.id_cart = randomUUID();
     objeto.productos = prodsCart
     await cartFile.save(objeto);
-    res.json(objeto.id_cart)
+    res.json({id_cart:objeto.id_cart})
 }
 
 async function controladorDeleteCartById({ body, params: { id_carrito } }, res) {
@@ -92,7 +92,7 @@ async function controladorDeleteCartProductById({params: { id_cart }, params: {i
         res.status(404);
         res.json({ mensaje: `no se encontró producto con ese id (${id_prod}), en el carrito con id (${id_cart}` });
       } else {
-        const borrados = await cartFile.deleteByIdProd(indiceBuscadoCart, id_prod);
+        const borrados = await cartFile.deleteByIdProd(indiceBuscadoCart, indiceBuscadoProd);
         res.json(borrados);
       }
     }
